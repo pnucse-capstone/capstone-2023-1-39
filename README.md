@@ -1,10 +1,10 @@
 ### 1. 프로젝트 소개
 
-이 프로젝트는 졸업과제를 수행하는 학생들에게 README 작성의 가이드라인을 제공하기 위해 제작되었습니다.
+## Where am I?
 
 ### 2. 팀소개
 
-심진섭, ironman@marvel.com, 개발총괄
+심진섭, dndlzm123@pusan.ac.kr, 개발총괄
 
 이준희, spiderman@marvel.com, 알고리즘 설계
 
@@ -12,9 +12,17 @@
 
 ### 3. 시스템 구성도
 
+![image](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0483272a-ca6e-4253-8b22-a44cb003cee2)
+
 ### 4. 소개 및 시연 영상
 
 ### 5. 설치 및 사용법
 
-본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 
-관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
+본 프로젝트의 기기 서비스는 Debian 기반의 Raspberry pi OS에서 개발되었습니다. 
+따라서 사용 시 기기 내에 관련 패키지 설치가 필요합니다.
+```python
+pip install pandas
+apt install python3-pandas
+```
+
+본 프로젝트의 PWA
