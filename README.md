@@ -38,5 +38,5 @@ apt install python3-pandas
 본 프로젝트의 서비스는 PWA를 통해 제공됩니다.  
 아래의 링크로 접속하여 __홈 화면에 추가__ 기능을 통해 별도의 설치 없이 사용이 가능합니다.  
 ```
-![WMI PWA LINK](wmi-project-d857c.web.app)
+wmi-project-d857c.web.app
 ```
