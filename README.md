@@ -37,6 +37,7 @@ __❓ Backend__
 |AWS RDB(Maria DB)|-|v10.6|메인 서버용 데이터베이스|
 |Python|VSCode|v3.9.2|머신러닝용 서버 개발|
 |DRF(Django Rest Framework)|VSCode|v3.14.0|머신러닝용 서버 배포|  
+|XGBoost|VSCode|v2.0.0|머신러닝 패키지|  
 
 __❓ Frontend__
 |이름|개발 IDE|버전|비고|
@@ -51,7 +52,7 @@ __❓ Device__
 |Raspberry Pi|VSCode|3B+|사용자 지급용 라즈베리파이|
 |Raspberry Pi|VSCode|4B|제어 가능한 자원|  
 
-__❓ Devops__
+__❓ Deploy__
 |이름|버전|비고|
 |:-:|:-:|:-:|
 |AWS EC2|ubuntu 20.04 LTS|메인 서버(Springboot) 배포|
