@@ -30,7 +30,7 @@
 
 ![image](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0483272a-ca6e-4253-8b22-a44cb003cee2)
 
-❓ Backend  
+__❓ Backend__
 |이름|개발 IDE|버전|비고|
 |:-:|:-:|:-:|:-:|
 |Springboot|IntelliJ|v3.0.6|메인 서버 개발|
@@ -38,22 +38,22 @@
 |Python|VSCode|v3.9.2|머신러닝용 서버 개발|
 |DRF(Django Rest Framework)|VSCode|v3.14.0|머신러닝용 서버 배포|  
 
-❓ Frontend  
+__❓ Frontend__
 |이름|개발 IDE|버전|비고|
 |:-:|:-:|:-:|:-:|
 |Vue.js|VSCode|Vue 3|메인 서버 개발|
 |Node.js|-|v18.16.0|Javascript 개발 환경|
 |Firebase Cloud Messaging|VSCode|-|PWA 푸시 알림 전송 API|  
 
-❓ Device  
+__❓ Device__
 |이름|개발 IDE|버전|비고|
 |:-:|:-:|:-:|:-:|
 |Raspberry Pi|VSCode|3B+|사용자 지급용 라즈베리파이|
 |Raspberry Pi|VSCode|4B|제어 가능한 자원|  
 
-❓ Devops  
+__❓ Devops__
 |이름|버전|비고|
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 |AWS EC2|ubuntu 20.04 LTS|메인 서버(Springboot) 배포|
 |AWS ALB|-|메인 서버 HTTPS 로드밸런서|
 |AWS Route 53|-|도메인 네임서버 연결|  
