@@ -10,7 +10,7 @@
 </p>  
 <br>  
 
-> :grey_question: 실내 위치 추정 기법의 정확도를 개선하는 것이 주요 목표입니다.  
+> ❓: 실내 위치 추정 기법의 정확도를 개선하는 것이 주요 목표입니다.  
 
 > :bulb: 실내 위치 추정 기법을 기반으로 주변의 IoT 자원을 제어할 수 있습니다.
 
@@ -23,19 +23,40 @@
 |심진섭|이준희(팀장)|이민경|
 |:-:|:-:|:-:|
 |<img src="https://avatars.githubusercontent.com/u/71700079?s=400&u=9e9338f1a22b811003f826b00c9b797a01aea381&v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80378041?v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/48466069?v=4" width="100" height="100">|
-|프론트엔드 개발 <br> MQTT 환경 구축|백엔드 개발 <br> 데이터 전처리|보고서 작성 <br> 데이터 수집|
+|프론트엔드 개발 <br> MQTT 환경 구축 <br> 머신러닝 서버 구축|백엔드 개발 <br> 데이터 전처리 <br> 배포 환경 구성|UI 기획 <br> 보고서 작성 <br> 데이터 수집|
 |dndlzm123@pusan.ac.kr|abc980823@pusan.ac.kr|anfrhrl98@pusan.ac.kr|
 
 ### 3. 시스템 구성도
 
 ![image](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0483272a-ca6e-4253-8b22-a44cb003cee2)
 
-본 과제의 가장 기본적인 목표는 아래와 같다.  
-- 실내 위치 추정 기법(Fingerprint)의 정확도 개선  
+❓ Backend  
+|이름|개발 IDE|버전|비고|
+|:-:|:-:|:-:|:-:|
+|Springboot|IntelliJ|v3.0.6|메인 서버 개발|
+|AWS RDB(Maria DB)|-|v10.6|메인 서버용 데이터베이스|
+|Python|VSCode|v3.9.2|머신러닝용 서버 개발|
+|DRF(Django Rest Framework)|VSCode|v3.14.0|머신러닝용 서버 배포|  
 
-해당 목표를 이룩함으로써, 아래의 서비스를 사용자들에게 제공하도록 한다.
-- 실내 위치 추정 기반, 주변 자원 제어 서비스
-- 실내 위치 추정 기반, 실내 최단 경로 안내 서비스
+❓ Frontend  
+|이름|개발 IDE|버전|비고|
+|:-:|:-:|:-:|:-:|
+|Vue.js|VSCode|Vue 3|메인 서버 개발|
+|Node.js|-|v18.16.0|Javascript 개발 환경|
+|Firebase Cloud Messaging|VSCode|-|PWA 푸시 알림 전송 API|  
+
+❓ Device  
+|이름|개발 IDE|버전|비고|
+|:-:|:-:|:-:|:-:|
+|Raspberry Pi|VSCode|3B+|사용자 지급용 라즈베리파이|
+|Raspberry Pi|VSCode|4B|제어 가능한 자원|  
+
+❓ Devops  
+|이름|버전|비고|
+|:-:|:-:|:-:|:-:|
+|AWS EC2|ubuntu 20.04 LTS|메인 서버(Springboot) 배포|
+|AWS ALB|-|메인 서버 HTTPS 로드밸런서|
+|AWS Route 53|-|도메인 네임서버 연결|  
 
 ### 4. 소개 및 시연 영상
 TBD
