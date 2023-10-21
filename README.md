@@ -3,11 +3,13 @@
 # WMI, Where am I?
 > __무선 네트워크 기술을 활용한 사용자 인증 및 자원 통합 관리 플랫폼__ 입니다.  
 > 부산대학교 김태운 교수님의 지도로 진행되며, 김태운 교수님의 자료를 참고합니다.  
+ 
 <br>  
 <p align="center">
  <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/a3647860-fb31-4725-a7a5-ed2faaefb689">
 </p>  
 <br>  
+
 > :grey_question: 실내 위치 추정 기법의 정확도를 개선하는 것이 주요 목표입니다.  
 
 > :bulb: 실내 위치 추정 기법을 기반으로 주변의 IoT 자원을 제어할 수 있습니다.
