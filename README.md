@@ -17,10 +17,10 @@
 |심진섭|이준희|이민경|
 |:-:|:-:|:-:|
 |<img src="https://avatars.githubusercontent.com/u/71700079?s=400&u=9e9338f1a22b811003f826b00c9b797a01aea381&v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80378041?v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/48466069?v=4" width="100" height="100">|
-|프론트엔드 개발  
-안녕|팀장|보고서 작성|
-|MQTT 환경 구축|백엔드 개발|데이터 수집|
-|dndlzm123@pusan.ac.kr|@pusan.ac.kr|@pusan.ac.kr|
+|프론트엔드 개발|백엔드 개발|보고서 작성|
+|MQTT 환경 구축|데이터 파싱|데이터 수집|
+|팀원|팀장|팀원|
+|dndlzm123@pusan.ac.kr|abc980823@pusan.ac.kr|@pusan.ac.kr|
 
 ### 3. 시스템 구성도
 
