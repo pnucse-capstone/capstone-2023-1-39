@@ -22,7 +22,7 @@
 |:-:|:-:|:-:|
 |<img src="https://avatars.githubusercontent.com/u/71700079?s=400&u=9e9338f1a22b811003f826b00c9b797a01aea381&v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80378041?v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/48466069?v=4" width="100" height="100">|
 |프론트엔드 개발 <br> MQTT 환경 구축|백엔드 개발 <br> 데이터 전처리|보고서 작성 <br> 데이터 수집|
-|dndlzm123@pusan.ac.kr|abc980823@pusan.ac.kr|@pusan.ac.kr|
+|dndlzm123@pusan.ac.kr|abc980823@pusan.ac.kr|anfrhrl98@pusan.ac.kr|
 
 ### 3. 시스템 구성도
 
