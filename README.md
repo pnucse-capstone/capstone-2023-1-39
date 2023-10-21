@@ -4,6 +4,10 @@
 > __무선 네트워크 기술을 활용한 사용자 인증 및 자원 통합 관리 플랫폼__ 입니다.  
 > 부산대학교 김태운 교수님의 지도로 진행되며, 김태운 교수님의 자료를 참고합니다.
 
+<p align="center">
+  ![logo](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/a3647860-fb31-4725-a7a5-ed2faaefb689)
+</p>  
+
 > :grey_question: 실내 위치 추정 기법의 정확도를 개선하는 것이 주요 목표입니다.  
 
 > :bulb: 실내 위치 추정 기법을 기반으로 주변의 IoT 자원을 제어할 수 있습니다.
@@ -14,12 +18,11 @@
 
 ### 2. 팀 소개
 
-|심진섭|이준희|이민경|
+|심진섭|이준희(팀장)|이민경|
 |:-:|:-:|:-:|
 |<img src="https://avatars.githubusercontent.com/u/71700079?s=400&u=9e9338f1a22b811003f826b00c9b797a01aea381&v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80378041?v=4" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/48466069?v=4" width="100" height="100">|
-|프론트엔드 개발|백엔드 개발|보고서 작성|
+|프론트엔드 개발 <br> MQTT 환경 구축|백엔드 개발|보고서 작성|
 |MQTT 환경 구축|데이터 파싱|데이터 수집|
-|팀원|팀장|팀원|
 |dndlzm123@pusan.ac.kr|abc980823@pusan.ac.kr|@pusan.ac.kr|
 
 ### 3. 시스템 구성도
