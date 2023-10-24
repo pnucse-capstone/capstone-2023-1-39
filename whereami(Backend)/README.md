@@ -1,4 +1,5 @@
-Server layer의 코드 저장소입니다.  
+## Device Repository
+> __Backend__ 의 저장소 입니다.  
 
 ### 개발 환경
 ```
