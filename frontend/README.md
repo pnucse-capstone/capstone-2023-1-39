@@ -5,5 +5,5 @@
 ```
 - VSCode
 - Vue 3
-- Node 16
+- Node 18.16.0
 ```
