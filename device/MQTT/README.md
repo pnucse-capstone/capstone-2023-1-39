@@ -1,4 +1,4 @@
-## Device : MQTT
+## Device : MQTT 파트 디렉토리입니다.
 > 자원과의 MQTT 통신을 위한 자원에 이식되는 코드입니다.  
 
 - dc_with_mqtt.py : 선풍기의 MQTT 코드입니다.
