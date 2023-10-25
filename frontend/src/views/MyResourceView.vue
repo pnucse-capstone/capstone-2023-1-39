@@ -6,7 +6,7 @@
                            color: black; font-size: 20px; font-family: 'SUITE-Regular';" @click="closeModal">X</button>
                 <h3>{{ modalResourceInfo.name }}</h3>
                 <img :src="modalResourceInfo.src" style="width: 150px; height: 150px;"/> 
-                <p>{{ modalResourceInfo.auth }} 권한 이상의 사용자만 사용 가능합니다.</p>
+                <p><span style="color: #537FE7; font-weight: bold;">{{ modalResourceInfo.auth }}</span>권한 이상의 사용자만 사용 가능합니다.</p>
                 <p v-html="modalResourceInfo.info"></p>
             </div>
         </div>
@@ -53,7 +53,8 @@ const modalResourceInfo = ref({
 const resourceInfos = new Map([
     [ "자판기", '제도관 2층에 위치해 있습니다.<br>버튼을 통해 원하는 물건을 뽑을 수 있습니다!' ],
     [ "도어락(6210)", '제도관 2층에 위치해 있습니다.<br>김XX 교수님의 연구실입니다.' ],
-    [ "선풍기", "제도관 2층에 위치해 있습니다.<br>한여름 더위를 시원하게 날려버리세요!" ]
+    [ "선풍기", "제도관 2층에 위치해 있습니다.<br>한여름 더위를 시원하게 날려버리세요!" ],
+    [ "전등", "제도관 2층에 위치해 있습니다.<br>밤에도 열심히 공부하는 당신, 불은 켜고 합시다!"]
 ])
 const showModal = ref(false)
 

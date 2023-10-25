@@ -72,7 +72,7 @@ const resourceInfos = new Map([
     [ "자판기", '제도관 2층에 위치해 있습니다.<br>버튼을 통해 원하는 물건을 뽑을 수 있습니다!' ],
     [ "도어락(6210)", '제도관 2층에 위치해 있습니다.<br>김XX 교수님의 연구실입니다.' ],
     [ "선풍기", "제도관 2층에 위치해 있습니다.<br>한여름 더위를 시원하게 날려버리세요!" ],
-    [ "전등", "제도관 2층에 위치해 있습니다.<br>어두워서 잘 안보이시나요? 불을 켜드릴게요!"]
+    [ "전등", "제도관 2층에 위치해 있습니다.<br>밤에도 열심히 공부하는 당신, 불은 켜고 합시다!"]
 ])
 const showModal = ref(false)
 const resourceList = ref([])
@@ -149,7 +149,9 @@ function requestAdd(target){
             }
          })
          .catch((error) => {
-            alert(error)
+            if(error.response.data.error.message === "이미 추가된 리소스입니다."){
+                alert("이미 추가된 리소스입니다.")
+            }
          })
 
     // 해당 요청에 들어갈 값은
@@ -168,7 +170,9 @@ function requestPermission(target){
             }
          })
          .catch((error) => {
-            alert(error)
+            if(error.response.data.error.message === "이미 추가된 리소스입니다."){
+                alert("이미 추가된 리소스입니다.")
+            }
          })
 
     // 해당 요청에 들어갈 값은
