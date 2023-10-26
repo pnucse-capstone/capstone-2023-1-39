@@ -16,8 +16,8 @@
 
 > 🗺️ 실내 위치 추정 기법을 기반으로 실내에서의 최단 경로를 안내받을 수 있습니다. 
 
-> :closed_lock_with_key: 기기 기반의 인증 방식을 고안하여 더욱 안전하게 서비스를 이용할 수 있습니다.  
-![KakaoTalk_20230927_141340458](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/25e03d53-680e-4a1b-bb85-a455ff7d99f6)  
+> :closed_lock_with_key: 기기 기반의 인증 방식을 고안하여 더욱 안전하게 서비스를 이용할 수 있습니다.
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/25e03d53-680e-4a1b-bb85-a455ff7d99f6" style="width: 100px; height:300px">
 ![KakaoTalk_20230927_141340458_01](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0f3fd4ea-3a9d-449d-b7f6-3130930ae3e8)  
 ![KakaoTalk_20230927_141340458_02](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386)  
 ![KakaoTalk_20230927_141340458_03](https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47)  
