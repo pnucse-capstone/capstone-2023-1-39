@@ -21,11 +21,12 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0f3fd4ea-3a9d-449d-b7f6-3130930ae3e8" style="width: 235px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386" style="width: 235px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47" style="width: 235px; height:500px">  
-
+  
 - 이메일 인증을 통하여 부산대 학생 신분임을 인증하면 서비스 이용이 가능합니다.
 - 보다 안전한 인증을 위해 __OTP 인증을__ 통해 사용자를 인증합니다.
 - 교수님은 더욱 더 강화된 인증을 위해 지급되는 __QR 코드를 통한 인증이__ 진행됩니다.
 - 과제의 특성을 살려 직접 고안한 __기기 기반 인증이__ 모든 사용자를 대상으로 진행됩니다.
+
 
 ### 2. 팀 소개
 
