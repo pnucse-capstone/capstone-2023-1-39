@@ -10,7 +10,15 @@
 </p>  
 <br>  
 
-> ❓: __실내 위치 추정 기법의 정확도를__ 개선하는 것이 주요 목표입니다.  
+> ❓: __실내 위치 추정 기법의 정확도를__ 개선하는 것이 주요 목표입니다.
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/c8b06628-9284-4fe4-a084-9bf6724fada0" style="width: 500px; height:500px">
+<br/>
+<br/>  
+
+- 원하는 자원의 근처에 도달하면 푸시 알림을 통해 __자원 제어가__ 가능 합니다.
+- 사용이 끝났다면 안심하고 가시면 됩니다! 자원은 __자동으로 종료__ 됩니다!
+
+<br/>  
 
 > :bulb: 실내 위치 추정 기법을 기반으로 __주변의 자원(리소스)을__ 제어할 수 있습니다.
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/1b0619c6-f666-426b-b8ec-a0072e724319" style="width: 230px; height:500px">
