@@ -29,8 +29,7 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/6fff6bf8-af90-44e6-b864-153efa324461" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/a0183540-feea-499f-8898-aba6ed13b230" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/707e8329-ee41-4734-9286-d884ee648846" style="width: 230px; height:500px">
-
-
+<br/>
 <br/>  
   
 - 원하는 목적지를 설정해서 __실내 최단 경로를__ 안내받을 수 있습니다.
@@ -44,8 +43,7 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0f3fd4ea-3a9d-449d-b7f6-3130930ae3e8" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47" style="width: 230px; height:500px">
-
-
+<br/>
 <br/>  
   
 - 이메일 인증을 통하여 부산대 학생 신분임을 인증하면 서비스 이용이 가능합니다.
