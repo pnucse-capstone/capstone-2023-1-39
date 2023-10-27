@@ -17,7 +17,7 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/c6e732e3-1304-4c1a-8c73-f0e6d4da8a5c" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e1a3e46e-f8ee-430c-a625-3f9e43afae07" style="width: 230px; height:500px">  
 
-<br/>  
+<br/><br/>  
 
 - 원하는 자원의 근처에 도달하면 푸시 알림을 통해 __자원 제어가__ 가능 합니다.
 - 사용이 끝났다면 안심하고 가시면 됩니다! 자원은 __자동으로 종료__ 됩니다!
@@ -30,7 +30,7 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/a0183540-feea-499f-8898-aba6ed13b230" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/707e8329-ee41-4734-9286-d884ee648846" style="width: 230px; height:500px">  
 
-<br/>  
+<br/><br/>  
 
 - 원하는 목적지를 설정해서 __실내 최단 경로를__ 안내받을 수 있습니다.
 - 따로 목적지가 없다면, __복도를 직접 클릭해서__ 최단 경로를 안내받을 수 있습니다.
@@ -44,7 +44,7 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47" style="width: 230px; height:500px">   
 
-<br/>  
+<br/><br/>  
 
 - 이메일 인증을 통하여 부산대 학생 신분임을 인증하면 서비스 이용이 가능합니다.
 - 보다 안전한 인증을 위해 __OTP 인증을__ 통해 사용자를 인증합니다.
