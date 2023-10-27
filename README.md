@@ -12,7 +12,7 @@
 
 > ❓: __실내 위치 추정 기법의 정확도를__ 개선하는 것이 주요 목표입니다.
 <p align="center">
- <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/c8b06628-9284-4fe4-a084-9bf6724fada0" style="width: 550px; height:300px">
+ <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/c8b06628-9284-4fe4-a084-9bf6724fada0" style="width: 550px; height:320px">
 </p>  
 <br/>
 <br/>  
