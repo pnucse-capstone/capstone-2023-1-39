@@ -20,10 +20,10 @@
 - 확대된 지도가 불편하다면, __지도 전체보기__ 기능을 이용하세요!
 
 > :closed_lock_with_key: __다양한 인증 방식을 통하여__ 더욱 안전하게 서비스를 이용할 수 있습니다.
-<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/25e03d53-680e-4a1b-bb85-a455ff7d99f6" style="width: 235px; height:500px">
-<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0f3fd4ea-3a9d-449d-b7f6-3130930ae3e8" style="width: 235px; height:500px">
-<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386" style="width: 235px; height:500px">
-<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47" style="width: 235px; height:500px">  
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/25e03d53-680e-4a1b-bb85-a455ff7d99f6" style="width: 230px; height:500px">
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0f3fd4ea-3a9d-449d-b7f6-3130930ae3e8" style="width: 230px; height:500px">
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e498bb31-e548-40e5-a39f-aa2d3a328386" style="width: 230px; height:500px">
+<img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/48e2b576-7376-4450-a2f6-bb22a8105c47" style="width: 230px; height:500px">  
 
 - 이메일 인증을 통하여 부산대 학생 신분임을 인증하면 서비스 이용이 가능합니다.
 - 보다 안전한 인증을 위해 __OTP 인증을__ 통해 사용자를 인증합니다.
