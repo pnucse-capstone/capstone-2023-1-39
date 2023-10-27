@@ -15,10 +15,10 @@
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/1b0619c6-f666-426b-b8ec-a0072e724319" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/c6e732e3-1304-4c1a-8c73-f0e6d4da8a5c" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/e1a3e46e-f8ee-430c-a625-3f9e43afae07" style="width: 230px; height:500px">
-
+<br/><br/>
 - 원하는 자원의 근처에 도달하면 푸시 알림을 통해 __자원 제어가__ 가능 합니다.
 - 사용이 끝났다면 안심하고 가시면 됩니다! 자원은 __자동으로 종료__ 됩니다!
-
+<br/><br/>
 > 🗺️ 실내 위치 추정 기법을 기반으로 실내에서의 __최단 경로를__ 안내받을 수 있습니다.
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/0d76ebf7-92b4-47c0-8f73-94bf0bdc1936" style="width: 230px; height:500px">
 <img src="https://github.com/pnucse-capstone/capstone-2023-1-39/assets/71700079/6fff6bf8-af90-44e6-b864-153efa324461" style="width: 230px; height:500px">
