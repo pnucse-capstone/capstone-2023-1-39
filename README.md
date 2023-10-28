@@ -111,7 +111,7 @@ __❓ Deploy__
 |AWS Route 53|-|도메인 네임서버 연결|  
 
 ### 4. 소개 및 시연 영상
-TBD
+[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/Z0g47ALLChc/0.jpg)](https://www.youtube.com/watch?v=Z0g47ALLChc)    
 
 ### 5. 설치 및 사용법
 
