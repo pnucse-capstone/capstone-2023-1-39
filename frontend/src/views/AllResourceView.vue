@@ -35,8 +35,9 @@
                         <img v-if="resource.isOn==''" src="../assets/greenglow.png" style="width: 25px; height: 25px;">
                         <img v-if="resource.isOn!=''" src="../assets/redglow.png" style="width: 25px; height: 25px;">
                         <span style="font-size: 18px; line-height: 35px;" @click="openModal(resource.deviceName, resource.auth)">{{ resource.deviceName }}</span>
-                        <button v-if="resource.auth == 'Student'" class="resource_button_ask" @click="requestAdd(resource.id)">추가</button>
-                        <button v-if="resource.auth == 'Professor'" class="resource_button_ask" style="background-color: #3ADF00;" @click="requestPermission(resource.id)">요청</button>
+                        <button v-if="(currAuthority == 'Student' && resource.auth == 'Student') || (currAuthority == 'Professor' && (resource.auth == 'Professor' || resource.auth == 'Student'))" 
+                                class="resource_button_ask" @click="requestAdd(resource.id)">추가</button>
+                        <button v-if="(currAuthority == 'Student' && resource.auth == 'Professor')" class="resource_button_ask" style="background-color: #3ADF00;" @click="requestPermission(resource.id)">요청</button>
                     </li>
                 </template>
             </ul>
@@ -48,6 +49,7 @@
 import { router } from '@/router';
 import {ref, onMounted, inject} from 'vue'
 import axios from 'axios';
+import { useStore } from 'vuex';
 
 const accessToken = localStorage.getItem('accessToken')
 const headers = JSON.parse(inject('headers') + accessToken + '"}');
@@ -61,6 +63,8 @@ const sortedForbiddenResourceList = ref([])
 const isNotSorted = ref({color: 'red'});
 const isSortedMine = ref();
 const isSortedForbidden = ref();
+const store = useStore();
+const currAuthority = ref("")
 
 const modalResourceInfo = ref({
     name: "",
@@ -82,6 +86,7 @@ const addRequestDto = ref({
 
 onMounted(() => { // 화면 마운트 시 요청 받아옴
     requestResourceList();
+    currAuthority.value = store.state.authority;
 })
 
 function requestResourceList(){ // 기본적으로 전체 정렬
@@ -106,7 +111,7 @@ function sortMine(){
     isSortedForbidden.value = {color: "black"};
 
     resourceList.value.forEach(object => {
-        if(object['auth'] === "Student")
+        if(object['auth'] === store.state.authority)
             sortedMyResourceList.value.push(object)
         // 추후에 권한을 현재 로그인 한 사람 권한으로 바꿔야함
         // 방식은 store.state.authority를 통해서!
@@ -121,7 +126,7 @@ function sortForbidden(){
     isSortedForbidden.value = {color: "red"};
 
     resourceList.value.forEach(object => {
-        if(object['auth'] === "Professor")
+        if(object['auth'] !== store.state.authority)
             sortedForbiddenResourceList.value.push(object)
     });
     

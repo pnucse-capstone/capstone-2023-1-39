@@ -96,11 +96,13 @@ import { router } from '@/router';
 import {initializeApp} from "firebase/app"
 import {getMessaging, getToken, onMessage} from "firebase/messaging"
 import axios from 'axios';
+import { useStore } from 'vuex';
 
 const accessToken = localStorage.getItem('accessToken')
 const headers = JSON.parse(inject('headers') + accessToken + '"}');
 const requestURL = inject('requestURL')
 const isDest = ref(false)
+const store = useStore();
 
 // 여기부터 지도 관련 JS
 var imgLeft = 0
@@ -176,6 +178,11 @@ function getShortcut(){
     axios.get(requestURL + "findPath?x=" + localStorage.getItem("x") + "&y=" + localStorage.getItem("y"), {headers})
             .then((resp) => {
                 shortestPath.value = resp.data.shortestPath
+            })
+            .catch((error) => {
+                if(error.response.data.error.message === "권한이 없습니다.")
+                    alert("일반 사용자는 해당 서비스 이용이 불가합니다.")
+                return;
             })
 
     drawShortcut()
@@ -331,10 +338,18 @@ function closeEntireMap(){
 
 // 목적지 설정 Router
 function toSelectDestination(){
-    router.push('destination')
+    if(store.state.authority == "None")
+        alert("일반 사용자는 해당 서비스 이용이 불가합니다.")
+    else
+        router.push('destination')
 }
 
 function selectDestinationOnMap(event){
+    if(store.state.authority == "None"){
+        alert("일반 사용자는 해당 서비스 이용이 불가합니다.")
+        return
+    }
+
     if(isDest.value === true)
         return
 

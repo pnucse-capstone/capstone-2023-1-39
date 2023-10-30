@@ -36,10 +36,16 @@ onMounted(() => {
 })
 
 function moveToAll(){
-    router.push('allResource')
+    if(store.state.authority == "None")
+        alert("일반 사용자는 해당 서비스 이용이 불가합니다.")
+    else
+        router.push('allResource')
 }
 function moveToMy(){
-    router.push('myResource')
+    if(store.state.authority == "None")
+        alert("일반 사용자는 해당 서비스 이용이 불가합니다.")
+    else
+        router.push('myResource')
 }
 function moveToMap(){
     router.push('map')

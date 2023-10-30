@@ -55,12 +55,14 @@ function sendRequest(){
     if(valid.value === true && authKeyValid.value === true)
         axios.post(requestURL + "emailAuth", emailAuthDto.value, {headers})
              .then((resp) => {
-                if(resp.status === 200)
-                    router.replace('main')
+                if(resp.status === 200){
+                    alert("이메일 인증이 완료되었습니다.(권한 변경)\n다시 로그인해주시기 바랍니다.")
+                    router.replace('login')
+                }
              })
              .catch((error) => {
                 if(error.response.data.error.message === "인증번호가 틀려부러쓰")
-                    alert(error.response.data.error.message)
+                    alert("잘못된 인증번호를 입력하셨습니다.")
              })
 }
 

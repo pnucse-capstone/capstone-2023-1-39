@@ -22,13 +22,15 @@ const requestURL = inject('requestURL')
 const rpiImage = ref(require("../assets/rpiauth1.drawio.png"))
 const imageCount = ref(0)
 var timer;
+var timeoutTimer;
 
 onMounted(() => {
     timer = setInterval(changeImage, 1000);
+    timeoutTimer = setTimeout(validate, 45000);
 })
 
 onUnmounted(() => {
-    clearInterval(timer);
+    clearTimeout(timeoutTimer);
 })
 
 function sendRequest(){
@@ -56,6 +58,11 @@ function sendRequest(){
 function changeImage(){
     imageCount.value++
     rpiImage.value = require("../assets/rpiauth" + ((imageCount.value)%4 + 1) + ".drawio.png")   
+}
+
+function validate(){
+    clearInterval(timer);
+    rpiImage.value = require("../assets/validatedRpi.png")
 }
 </script>
 
